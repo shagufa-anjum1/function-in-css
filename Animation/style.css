@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    border: 2px solid red ;
+}
+.box{
+    height: 212px;
+    width: 212px;
+    background-color: orange;
+    border: 2px solid green;
+
+    animation-name: shagufa;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 4;
+    animation-duration: normal;
+
+}
+@keyframes shagufa {
+    33%{
+        width: 33%;
+        background-color: orange;
+        transition: 1s;
+    }
+    66%{
+        width: 66%;
+        background-color: white;
+        transition: 1s;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+        transition: 1s;
+    }
+    
+}
+
+/* 
+@keyframes shagufa {
+    0%{
+        width: 20%;
+
+    }
+    33%{
+        width : 40%;
+        background-color: brown;
+        transition: 1s;
+    }
+    50%{
+           width: 60%;
+           background-color: chartreuse;
+           transition: 1s;
+    }
+    65%{
+           width: 75%;
+           background-color: chocolate;
+           transition: 1s;
+    }
+    75%{
+            width: 85%;
+            background-color: crimson;
+            transition: 1s;
+    }
+    85%{
+            width: 92%;
+            background-color: coral;
+            transition: 1s;
+    }
+    100%{
+          width: 100%;
+          background-color: darkgoldenrod;
+          transition: 1s;
+    }
+} */
