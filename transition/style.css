@@ -13,9 +13,12 @@
     background-color: aqua;
     /* transition: 2s; */
 
-    transition:  all 5s ease 2s;
+    /* transition:  all 5s ease-in 2s; */
+
+    transition: transform 3s ease-in 1s;
 }
 .box:hover{
     background-color: rgb(246, 16, 27);
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
+    transform: translateX(500px);
 }
